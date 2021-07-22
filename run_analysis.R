@@ -24,5 +24,4 @@ meanData <- featureData %>%
 if(!dir.exists("output")) {
   dir.create("output")
 }
-write.csv(featureData, "output/featureData.csv")
-write.csv(meanData, "output/meanData.csv")
+write.table(meanData, "output/meanData.txt", row.name=FALSE)
