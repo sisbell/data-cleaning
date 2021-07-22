@@ -28,6 +28,7 @@ to be more readable than the raw data.
 Next, we create feature data by reading the test and training observation data. 
 * "data/test/x_test.txt"
 * "data/train/x_train.txt"
+
 and add the feature headers to the table.
 
 This gives a collapsed view of both the training and test data observations with 
@@ -49,5 +50,5 @@ This gives us the type of movement activity (like WALKING) for each feature obse
 
 ### Output (in output directory)
 * featureData.csv - contains feature data with individual subject and activity types
-* meanData.csv - contains feature data averages, summarized by subject and activity type
+* meanData.txt - contains feature data averages, summarized by subject and activity type
 
