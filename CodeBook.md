@@ -1,5 +1,5 @@
 ### Code Data
-The meanData.csv contains the following data. 
+The meanData.txt contains the following data. 
 * subject_id: id of one of the participants. It is a numeric value between 1 and 30
 * activity: the activity of the participant while recording the measurements: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
 
